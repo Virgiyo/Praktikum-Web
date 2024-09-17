@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5; 
+    color: #333;
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #ffffff; 
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header .logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table th, table td {
+    padding: 18px;
+    border: none;
+    border-bottom: 2px solid #e0e0e0;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background-color: #009688; 
+    color: #ffffff; 
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+td {
+    color: #555;
+}
+
+.menu-img {
+    width: 100px;
+    border-radius: 12px;
+    margin-top: 15px;
+    border: 3px solid #009688;
+}
+
+input[type="text"], input[type="date"] {
+    width: 90%;
+    max-width: 220px;
+    padding: 12px;
+    border: 1px solid #009688;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="radio"] {
+    margin-right: 12px;
+}
+
+.total-label {
+    text-align: right;
+    font-weight: 700;
+    font-size: 18px;
+    color: #009688; 
+}
+
+.payment-method {
+    text-align: center;
+    padding: 25px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.footer {
+    text-align: left;
+    color: #666;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.footer a {
+    color: #009688;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 25px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    table th, table td {
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .menu-img {
+        width: 80px;
+    }
+
+    input[type="text"], input[type="date"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 98%;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    table th, table td {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .menu-img {
+        width: 70px;
+    }
+
+    input[type="text"], input[type="date"] {
+        width: 100%;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
